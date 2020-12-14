@@ -2,7 +2,6 @@ import React from 'react';
 import {Card , CardBody , CardImg , CardSubtitle, CardTitle,
           CardText} from 'reactstrap';
 import { Loading } from './LoadingComponent';
-import { baseUrl } from '../shared/baseUrl';
 import { FadeTransform } from 'react-animation-components';
 
 function RenderCard({item,isLoading,errMess}) {
